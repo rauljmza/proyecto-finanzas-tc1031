@@ -1,5 +1,5 @@
-# Proyecto: Nombre de tu proyecto
-Escribe aquí un overview general de tu proyecto
+# Proyecto: Finanzas Personales
+El proyecto tiene como propósito la gestión de una gran cantidad de información como lo son gastos e ingresos de una persona, esto implica manejar algunas cuentas de banco y tarjetas de debito y credito concedidas al usuario. A veces es dificil mantener un orden sobre esto mismo, que tenemos el error de gastar mas de lo que deberíamos, a veces en cosas innecesarias, lo que también busca "atacar" el proyecto, a identificar estos gastos hormiga y ayudarnos a tener una mejor salud financiera.
 
 ## Descripción del avance 1
 Un proyecto básico de gestión de gastos e ingresos en el que unicamnete se pueden registrar hasta 100 transacciones con informacion como fecha, monto, categoria y una descripcion. Se hizo uso de algotimtos de busqeuda lineal y bunaria, y ordenarlos mediante 3 algoritmos diferentes: Bubble Sort para el ordenamiento pot monto, Selection Sort para fechas e Insertion Sorto para las categorias, todos con una complejidad O(n^2). La limitacion principal es que se ocupa la misma memoria sin importar si se guardan 10 o 100 transacciones.
