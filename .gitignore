@@ -1,0 +1,19 @@
+# Archivos ejecutables
+*.exe
+*.out
+*.o
+*.obj
+
+# Archivos temporales
+*.tmp
+*.bak
+*.backup
+*~
+
+# Directorio de VS Code (opcional, si no quieres subirlo)
+# .vscode/
+
+# Archivos de respaldo CSV
+*backup*.csv
+*test*.csv
+prueba*.csv
