@@ -1,5 +1,18 @@
-# Proyecto: Nombre de tu proyecto
-Escribe aquí un overview general de tu proyecto
+# AIO (All In One) - Sistema de Gestión Financiera Personal
+
+## Overview General del Proyecto
+
+AIO es un sistema completo para manejar las finanzas personales que se desarrollo a lo largo del semestre para la clase de Algoritmos Fundamentales. Lo que empezo como un simple registrador de gastos con arreglos estaticos termino siendo un sistema robusto con estructuras dinamicas, manejo de tarjetas de credito, importacion y exportacion de datos, y funcionalidad de deshacer operaciones.
+
+El proyecto evoluciono atraves de tres avances principales, cada uno agregando funcionalidades mas complejas y mejorando la eficiencia del codigo. Pasamos de tener un limite de 100 transacciones a poder manejar un numero ilimitado (bueno, limitado por la memoria RAM nada mas), y de busqeudas basicas a multiples algotimtos de ordenamiento y analisis financiero detallado.
+
+Lo mas interesante del proyecto es que combina conceptos academicos de estructuras de datos (listas ligadas, pilas, algotimtos de busqeuda y ordenamiento) con una aplicacion practica real. No es unicamnete codigo que funciona en teoria, sino que realmente puedes usarlo para trackear tus gastos diarios, controlar el uso de tus tarjetas de credito, y analizar en que te estas gastando tu dinero (spoiler: probablemente en comida y antojos).
+
+El sistema maneja cinco tipos de tarjetas/metodos de pago por defecto (Didi, Mercado Pago Debito/Credito, Nu Debito/Credito), permite categorizar gastos en 5 categorias diferentes, distingue entre gastos necesarios y no necesarios, y puede generar resumenes financieros completos. Ademas, implementa funciones recursivas para ciertos calculos, busqeudas lineales para encontrar transacciones especificas, y tres diferentes algotimtos de ordenamiento para organizar la informacion segun diferentes criterios.
+
+La arquitectura del codigo sigue los principios de C++98/03 (si, nada de auto ni nullptr), usa templates para las estructuras genericas, y maneja la memoria manualmente con new y delete. Todo el codigo esta organizado en headers porque asi es mas facil de compilar y no tenemos que lidiar con makefiles complicados.
+
+En resumen, AIO es un proyecto que demuestra la aplicacion practica de estructuras de datos clasicas en un contexto real, manteniendo un balance entre la complejidad algoritmica teorica y la funcionalidad practica que cualquier usuario podria necesitar para manejar sus finanzas personales.
 
 ## Descripción del avance 1
 Un proyecto básico de gestión de gastos e ingresos en el que unicamnete se pueden registrar hasta 100 transacciones con informacion como fecha, monto, categoria y una descripcion. Se hizo uso de algotimtos de busqeuda lineal y bunaria, y ordenarlos mediante 3 algoritmos diferentes: Bubble Sort para el ordenamiento pot monto, Selection Sort para fechas e Insertion Sorto para las categorias, todos con una complejidad O(n^2). La limitacion principal es que se ocupa la misma memoria sin importar si se guardan 10 o 100 transacciones.
