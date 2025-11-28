@@ -206,3 +206,14 @@ Para mi el aprendizaje es que un sistema puede tener multiples complejidades dep
 ## Proximos pasos
 
 Con este avance 3 se completaron todas las funcionalidades basicas del sistema de finanzas personales. Los proximos pasos podrían incluir la implementacion de graficas para visualizar tendencias de gastos, alertas cuando se acerque al limite de credito, presupuestos mensuales con seguimiento automatico, y tal vez una interfaz grafica para hacer el sistema mas accesible. Tambien seria interesante agregar soporte para multiples usuarios y encriptacion de datos para mayor seguridad.
+
+# Evidencia Problemas
+
+**Algoritmos de ordenamiento**
+https://drive.google.com/file/d/1yQt9Bm_8WfYksGjh8jz0RO7gtd4zRiI_/view?usp=sharing
+
+**Estructuras lineales**
+https://drive.google.com/file/d/1gLfTcG7mNlBqGNNvPEADGznyQfGH6K03/view?usp=sharing
+
+**Estructuras no lineales**
+https://drive.google.com/file/d/1A1HpMpPo-w2CsiaC0qtYMqlrPPOVattt/view?usp=sharing
